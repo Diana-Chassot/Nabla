@@ -1,6 +1,6 @@
 @media screen and (max-width: 1296px) {
-  .container {
-    padding: 0 2px;
+  .footer--container {
+    padding: 0 10px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -34,7 +34,7 @@
   /* header */
   .header {
     .header__nav {
-      background-color: white;
+      background-color: $color--pink--light;
       position: fixed;
       z-index: 20000;
       width: 100%;
