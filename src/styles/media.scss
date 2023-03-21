@@ -1,6 +1,6 @@
 @media screen and (max-width: 1296px) {
   .container {
-    padding: 0 10px;
+    padding: 0 2px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -142,9 +142,7 @@
       flex-direction: row-reverse;
       justify-content: space-around;
     }
-    .illustration--absolute {
-      display: none;
-    }
+    
     .vector::before,
     .vector::after {
       max-width: 30%;
@@ -154,12 +152,20 @@
     }
     .header__title,
     .header__title--mobile {
+      font-weight: 400;
       font-size: 55px;
-      line-height: 50px;
+      line-height: 60px;
+    }
+    .header__title--fontH1-2{
+      font-weight: 900;
+      font-size: 70px;
     }
   }
+  .health-sickness--container{
+    margin: 0;
+  }
   .illustration--absolute {
-    height: 150px;
+    display: none;
   }
   .section__title{
     font-size: 40px;
