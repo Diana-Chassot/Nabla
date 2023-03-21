@@ -25,14 +25,14 @@ $color--blue-line: rgba(220, 224, 233, 1);
 @mixin fontH1 {
   font-family: 'EB Garamond', serif;
 font-size: 60px;
-font-weight: 900;
+font-weight: 800;
 line-height: 80px;
 
 }
 @mixin fontH1-1 {
   font-family: 'EB Garamond', serif;
   font-size: 80px;
-  font-weight: 900;
+  font-weight: 800;
   line-height: 106px;
 
  
@@ -40,7 +40,7 @@ line-height: 80px;
 @mixin fontH1-2 {
   font-family: 'EB Garamond', serif;
   font-size: 110px;
-  font-weight: 900;
+  font-weight: 800;
   line-height: 146px;
   
 }
@@ -48,12 +48,12 @@ line-height: 80px;
 @mixin fontH2 {
   font-family: "Playfair Display SC", serif;
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 800;
   line-height: 60px;
   color: $color--blue--accent-dark;
 }
 @mixin fontH3 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   line-height: 33px;
   color: $color--blue--accent-dark;
@@ -64,12 +64,12 @@ line-height: 80px;
   line-height: 27px;
 }
 @mixin fontT4 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   line-height: 33px;
 }
 @mixin fontT5 {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 32px;
 
