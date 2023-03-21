@@ -1,0 +1,170 @@
+@media screen and (max-width: 1296px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* header */
+  .header {
+    .header__illustration--front {
+      max-width: 45%;
+    }
+    .header__illustration--back {
+      max-width: 30%;
+    }
+    .header__illustration--right {
+      right: 0;
+    }
+    .header__illustration--left {
+      left: 0;
+    }
+  }
+  /* sections */
+  .section__content-wrapper {
+    padding: 20px;
+  }
+  .section__illustration--front,
+  .section__illustration--back {
+    max-width: 50%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  /* header */
+  .header {
+    .header__nav {
+      background-color: white;
+      position: fixed;
+      z-index: 20000;
+      width: 100%;
+    }
+    .header__nav-list {
+      display: none;
+    }
+    .header__nav-icon--mobile {
+      display: block;
+    }
+    .header__title--mobile {
+      @include fontH1;
+    }
+    .header__vector {
+      margin: 35px auto;
+    }
+  }
+  /* sections */
+  .section__flex {
+    flex-direction: column;
+  }
+  .section__content-wrapper {
+    max-width: 100%;
+  }
+  .section__image,
+  .section__content {
+    width: 100%;
+  }
+  .section__content {
+    order: 1;
+    text-align: center;
+  }
+  .section__image {
+    position: relative;
+    order: 2;
+  }
+  .section__image-bg--blue {
+    .illustration--absolute {
+      left: 0;
+      bottom: 0;
+    }
+  }
+  .section__image-bg--pink {
+    .illustration--absolute {
+      left: auto;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  .illustration--absolute {
+    transform: translateX(0);
+  }
+  .health-sickness__illustration--front,
+  .availability__illustration--front {
+    transform: scaleX(-1);
+  }
+  #email {
+    max-width: 98%;
+  }
+  /* newsletter */
+  .newsletter {
+    .newsletter__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    .newsletter__content,
+    .newsletter__image {
+      width: 100%;
+    }
+    .newsletter__image {
+      order: 2;
+    }
+    .newsleter__image-wrapper {
+      width: 100%;
+    }
+    .newsletter__content {
+      padding: 20px;
+      order: 1;
+    }
+    .newsletter__apply {
+      top: 50%;
+    }
+  }
+  /* footer */
+  .footer {
+    margin-top: 20px;
+    .footer__flex {
+      justify-content: space-between;
+    }
+    .footer__menu-list {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 492px) {
+  /* header */
+  .header {
+    .header__content {
+      background-color: transparent;
+    }
+    .header__content {
+      height: auto;
+    }
+    .header__nav {
+      flex-direction: row-reverse;
+      justify-content: space-around;
+    }
+    .illustration--absolute {
+      display: none;
+    }
+    .vector::before,
+    .vector::after {
+      max-width: 30%;
+    }
+    .header__btn {
+      display: none;
+    }
+    .header__title,
+    .header__title--mobile {
+      font-size: 55px;
+      line-height: 50px;
+    }
+  }
+  .illustration--absolute {
+    height: 150px;
+  }
+  .section__title{
+    font-size: 40px;
+  }
+  .section__descr{
+    @include fontT6;
+  }
+}

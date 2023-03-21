@@ -1,0 +1,99 @@
+/* colors */
+$color--white: white;
+$color--black: black;
+$color--blue--accent-dark: rgba(4, 0, 98, 1);
+$color--blue--accent: rgba(0, 19, 255, 1);
+$color--blue--sky: rgba(245, 251, 255, 1);
+$color--gray: rgba(109, 117, 141, 1);
+$color--pink--light: rgba(254, 241, 239, 1);
+$color--blue--light: rgba(199, 227, 233, 1);
+$color--blue-line: rgba(220, 224, 233, 1);
+/* Fonts */
+/* 
+"Cabernet JF, sans-serif";
+'Roboto', sans-serif;
+'Euclid Circular B', sans-serif;
+ */
+ @mixin flexCenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin fontH1 {
+  font-family: "Cabernet JF, sans-serif";
+font-size: 60px;
+font-weight: 900;
+line-height: 80px;
+
+}
+@mixin fontH1-1 {
+  font-family: "Cabernet JF, sans-serif";
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 106px;
+
+ 
+}
+@mixin fontH1-2 {
+  font-family: "Cabernet JF, sans-serif";
+  font-size: 110px;
+  font-weight: 900;
+  line-height: 146px;
+  
+}
+
+@mixin fontH2 {
+  font-family: "Cabernet JF, sans-serif";
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  color: $color--blue--accent-dark;
+}
+@mixin fontH3 {
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 33px;
+  color: $color--blue--accent-dark;
+}
+
+@mixin fontT3 {
+  font-size: 18px;
+  line-height: 27px;
+}
+@mixin fontT4 {
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 33px;
+}
+@mixin fontT5 {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 32px;
+
+}
+@mixin fontT6 {
+
+  font-size: 15px;
+  line-height: 23px;
+
+}
+@mixin fontT7 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+}
+@mixin fontT8 {
+
+  font-size: 14px;
+  line-height: 21px;
+
+}
+
+@mixin fontT9 {
+  font-size: 13px;
+  line-height: 20px;
+
+}
+
